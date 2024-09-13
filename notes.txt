@@ -1,0 +1,15 @@
+steps for tailwind =>
+
+npm i -D tailwindcss postcss autoprefixer
+npx tailwind init -p
+
+tailwind.config=>
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts, jsx,tsx}"
+],
+
+index.css=>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
