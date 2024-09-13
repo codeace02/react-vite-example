@@ -13,3 +13,5 @@ index.css=>
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+pexels.com => images
