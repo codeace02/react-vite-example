@@ -1,6 +1,7 @@
 import BgChanger from "./components/BgChanger"
 import Card from "./components/Card"
-import PasswordGenerator from "./components/PasswordGenerator"
+import CurrencyConvertor from "./components/currency-app/CurrencyConvertor"
+import PasswordGenerator from "./components/PasswordGenerator";
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
       {/* <Card /> */}
       {/* <BgChanger /> */}
-      <PasswordGenerator />
+      {/* <PasswordGenerator /> */}
+      <CurrencyConvertor />
     </>
   )
 }
