@@ -1,7 +1,10 @@
 import BgChanger from "./components/BgChanger"
 import Card from "./components/Card"
+import Login from "./components/context-example/Login";
+import Profile from "./components/context-example/Profile";
 import CurrencyConvertor from "./components/currency-app/CurrencyConvertor"
 import PasswordGenerator from "./components/PasswordGenerator";
+import UserContextProvider from "./context/UserContextProvider";
 
 function App() {
 
@@ -11,6 +14,11 @@ function App() {
       {/* <BgChanger /> */}
       {/* <PasswordGenerator /> */}
       {/* <CurrencyConvertor /> */}
+
+      <UserContextProvider>
+        <Login />
+        <Profile />
+      </UserContextProvider>
     </>
   )
 }
