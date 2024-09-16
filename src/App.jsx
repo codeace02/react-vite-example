@@ -7,6 +7,7 @@ import CurrencyConvertor from "./components/currency-app/CurrencyConvertor"
 import PasswordGenerator from "./components/PasswordGenerator";
 import UserContextProvider from "./context/UserContextProvider";
 import ThemeChanger from "./components/context-example/theme-example/ThemeChanger";
+import TodoApp from "./components/context-example/todo-example";
 
 function App() {
 
@@ -23,7 +24,9 @@ function App() {
         <Profile />
       </UserContextProvider> */}
 
-      <ThemeChanger />
+      {/* <ThemeChanger /> */}
+
+      <TodoApp />
     </>
   )
 }
