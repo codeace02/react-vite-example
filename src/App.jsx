@@ -10,7 +10,7 @@ function App() {
       {/* <Card /> */}
       {/* <BgChanger /> */}
       {/* <PasswordGenerator /> */}
-      <CurrencyConvertor />
+      {/* <CurrencyConvertor /> */}
     </>
   )
 }
