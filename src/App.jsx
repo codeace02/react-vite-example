@@ -8,6 +8,8 @@ import PasswordGenerator from "./components/PasswordGenerator";
 import UserContextProvider from "./context/UserContextProvider";
 import ThemeChanger from "./components/context-example/theme-example/ThemeChanger";
 import TodoApp from "./components/context-example/todo-example";
+import Todos from "./components/redux-example/Todos";
+import AddTodo from "./components/redux-example/AddTodo";
 
 function App() {
 
@@ -26,7 +28,10 @@ function App() {
 
       {/* <ThemeChanger /> */}
 
-      <TodoApp />
+      {/* <TodoApp /> */}
+
+      <AddTodo />
+      <Todos />
     </>
   )
 }
