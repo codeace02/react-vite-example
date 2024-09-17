@@ -9,6 +9,8 @@ import About from './components/react-router/About.jsx';
 import Contact from './components/react-router/Contact.jsx';
 import Github, { githubInfoLoader } from './components/react-router/Github.jsx';
 import User from './components/react-router/User.jsx';
+import { Provider } from 'react-redux';
+import { store } from './redux/store.js';
 
 // const router = createBrowserRouter([
 //   {
@@ -56,6 +58,9 @@ const router2 = createBrowserRouter(
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <RouterProvider router={router2} /> */}
-    <App />
+
+    <Provider store={store}>
+      <App />
+    </Provider>
   </StrictMode>,
 )
